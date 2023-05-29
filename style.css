@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#titulo-menu{
+    background-color: #303030;
+    font-family: 'inter';
+    font-style: normal;
+    padding-top: 206px;
+    padding-left: 62px;
+    padding-right: 354px;
+    padding-bottom: 197px;
+    font-size: 52px;
+    color: #FFFFFF
+}
+
+#texto-menu{
+    position: absolute;
+    font-family: 'inter';
+    font-style: normal;
+    width: 1024px;
+    height: 28px;
+    left: 62px;
+    top: 290px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+#subtitulo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    background-image: url(Layout/subtitulo.svg);
+    padding-top: 96px;
+    padding-left: 171px;
+    padding-left: 64px;
+    padding-bottom: 66px;
+}
+
+.titulosubmenu{
+    font-size: 40px;
+    padding-left: 110px;
+    padding-bottom: 25px;
+}
+
+.textosubmenu{
+    font-weight: normal;
+    font-size: 17px;
+}
+
+#corpopagina{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulocorpo{
+    font-size: 35px;
+    padding-top: 280px;
+    padding-left: 77px;
+    padding-bottom: 50px;
+}
+
+#textocorpo{
+    font-size: 21px;
+    padding-left: 77px;
+    align-items: center;
+    display: flex;
+}
+
+#casa{
+    padding-top: 82px;
+    padding-right: 64px;
+    padding-left: 54px;
+    padding-bottom: 92px;
+}
+
+#serviços{
+    background-color: #303030;
+    padding-top: 87px;
+}
+
+#tituloserviços{
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-size: 32px;
+}
+
+input{
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 10px;
+    width: 490px;
+    height: 72px;
+    margin: 30px 466px;
+    font-weight: bolder;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.3);
+    padding-left: 30px;
+}
+
+button{
+    background-color: #C07212;
+    border: 0px;
+    border-radius: 10px;
+    width: 286px;
+    height: 74px;
+    margin: 45px 577px;
+    margin-bottom: 80px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 20px #111111ea;
+    transition-duration: 0.5s;
+}
